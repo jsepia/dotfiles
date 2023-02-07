@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # deps
-sudo apt-get install -y -q stow
+sudo apt-get install -y -qq stow pip liquidprompt
 
 # provisioning
 DOTFILES_DIR=`dirname "$0"`
